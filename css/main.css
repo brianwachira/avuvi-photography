@@ -1,6 +1,15 @@
 #home-img{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0,0.7)), url("../images/overlay-img.jpg");
   position: relative;
+  display: inline-block;
 }
 .home-caption{
+  height: auto;
   position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
