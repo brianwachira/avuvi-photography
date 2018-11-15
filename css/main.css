@@ -6,10 +6,15 @@
 .home-caption{
   height: auto;
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
   font-weight: bold;
+}
+.about{
+  padding: 250px 0 250px 0;
+  background-color: black;
+  color: gold;
 }
