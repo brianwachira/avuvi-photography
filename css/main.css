@@ -1,38 +1,36 @@
-body {
-    background-color: gold;
-}
-
 #home-img {
-    position: relative;
-}
-
-.home-caption {
-    position: absolute;
-}
-
-.headimage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0, 0.7)), url("../images/overlay-img.jpg");
     position: relative;
     display: inline-block;
 }
 
-.headimage h1 {
-    font-size: 70px;
-}
-
-.headimage img {
-    display: block;
-    width: 100%;
+.home-caption {
     height: auto;
-}
-
-.mycaption {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-weight: bold;
+}
+
+.about {
+    padding: 250px 0 250px 0;
+    position: relative;
+    background-color: black;
+    color: gold;
+}
+
+.about img {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.text-justify {
+    font-size: 35px;
+    width: 90%;
 }
 
 .workTitle {
