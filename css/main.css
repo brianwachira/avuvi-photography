@@ -51,3 +51,22 @@ body {
     font-size: 40px;
     background-color: white;
 }
+
+.packages {
+    text-align: center;
+}
+
+.packagesTitle {
+    padding: 5px 0;
+    border: 5px solid white;
+    background-color: gold;
+}
+
+.packagesTitle h1 {
+    color: white;
+}
+
+.packagework {
+    text-align: center;
+    background-color: black;
+}
