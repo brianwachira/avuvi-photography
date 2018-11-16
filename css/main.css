@@ -1,6 +1,53 @@
-#home-img{
-  position: relative;
+body {
+    background-color: gold;
 }
-.home-caption{
-  position: absolute;
+
+#home-img {
+    position: relative;
+}
+
+.home-caption {
+    position: absolute;
+}
+
+.headimage {
+    position: relative;
+    display: inline-block;
+}
+
+.headimage h1 {
+    font-size: 70px;
+}
+
+.headimage img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mycaption {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.workTitle {
+    padding: 5px 0;
+    border: 5px solid white;
+    background-color: gold;
+    text-align: center;
+}
+
+.imgwork img {
+    border: 2px solid gold;
+}
+
+.mywork {
+    color: white;
+    font-size: 40px;
+    background-color: white;
 }
