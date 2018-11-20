@@ -22,13 +22,7 @@
     color: gold;
 }
 
-.about img {
-    position: absolute;
-    left: 20%;
-    top: 10%;
-}
-
-.text-justify {
+.text-center {
     font-size: 35px;
     width: 90%;
 }
