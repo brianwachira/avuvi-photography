@@ -62,6 +62,9 @@
     background-color: black;
 }
 .container-fluid  {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.flex-direction-nav .flex-prev {
+    left: -36px;
 }
