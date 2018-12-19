@@ -1,5 +1,7 @@
 .navbar {
     background-color: gold;
+}
+.navbar-light .navbar-nav .nav-link {
     color: white;
 }
 #home-img {
