@@ -1,3 +1,9 @@
+.navbar {
+    background-color: gold;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
 #home-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0, 0.7)), url("../images/overlay-img.jpg");
     position: relative;
@@ -17,18 +23,11 @@
 
 .about {
     padding: 250px 0 250px 0;
-    position: relative;
     background-color: black;
     color: gold;
 }
 
-.about img {
-    position: absolute;
-    left: 20%;
-    top: 10%;
-}
-
-.text-justify {
+.text-center {
     font-size: 35px;
     width: 90%;
 }
@@ -67,4 +66,8 @@
 .packagework {
     text-align: center;
     background-color: black;
+}
+.container-fluid  {
+    padding: 0px;
+    overflow-x: hidden;
 }
