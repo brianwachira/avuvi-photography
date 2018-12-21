@@ -1,9 +1,11 @@
 .navbar {
     background-color: gold;
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: white;
 }
+
 #home-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0, 0.7)), url("../images/overlay-img.jpg");
     position: relative;
@@ -33,10 +35,14 @@
 }
 
 .workTitle {
+    margin-bottom: 15px;
     padding: 5px 0;
-    border: 5px solid white;
     background-color: gold;
     text-align: center;
+}
+
+.imgwork {
+    padding: 10px 0;
 }
 
 .imgwork img {
@@ -44,18 +50,15 @@
 }
 
 .mywork {
+    border: 2px solid gold;
     color: white;
     font-size: 40px;
     background-color: white;
 }
 
-.packages {
-    text-align: center;
-}
-
 .packagesTitle {
+    text-align: center;
     padding: 5px 0;
-    border: 5px solid white;
     background-color: gold;
 }
 
@@ -64,10 +67,30 @@
 }
 
 .packagework {
-    text-align: center;
     background-color: black;
+    padding: 20px 0;
+    border: 2px solid gold;
+    text-align: center;
 }
-.container-fluid  {
+
+.contactsus {
+    padding: 15px 0;
+    border: 2px solid gold;
+    color: black;
+    text-align: center;
+}
+
+.contactsus a {
+    color: black;
+    padding: 5px;
+}
+
+.contactsus a:hover {
+    color: gold;
+}
+
+/*
+.container-fluid {
     padding: 0px;
     overflow-x: hidden;
-}
+}*/
